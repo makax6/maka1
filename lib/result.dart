@@ -25,6 +25,8 @@ class Result extends StatelessWidget {
       margin: EdgeInsets.all(10),
       child: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Text(
               resultPhrase,
